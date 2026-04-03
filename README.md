@@ -98,10 +98,11 @@ serve -s build
 ```
 ==========================================================================
 
-# git react 배포
+# ✔ git react 배포
 
-npm install gh-pages 실행
-
+``` C
+npm install gh-pages
+```
 package.json 수정
 
 "homepage": "https://rudamaanee.github.io/pub-guide", //git 주소
