@@ -28,7 +28,6 @@ import Error500           from './components/pages/errors/Error500'
 import Searches           from './components/pages/searches/Searches'
 
 import FormsTab           from './components/elements/forms/FormsTab'
-import IconsAll           from './components/elements/icons/IconsAll'
 import Tables             from './components/elements/table/Tables'
 import Pagination         from './components/elements/table/Pagination'
 import Accordion          from './components/elements/components/Accordion'
@@ -86,7 +85,6 @@ export default function App() {
                     <Route path="/error500" element={<Error500 />} />
                     <Route path="/buttons" element={<ButtonsAll />} />
                     <Route path="/withIcons" element={<WithIcons />} />
-                    <Route path="/iconsAll" element={<IconsAll />} />
                     <Route path="/search" element={<Search />} />
                     <Route path="/tables" element={<Tables />} />
                     <Route path="/Chartjsv3" element={<Chartjsv3 />} />

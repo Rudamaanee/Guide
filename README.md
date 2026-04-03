@@ -104,8 +104,8 @@ npm install gh-pages 실행
 
 package.json 수정
 
-"homepage": "https://rudamaanee.github.io/react", //git 주소
-"name": "react",
+"homepage": "https://rudamaanee.github.io/pub-guide", //git 주소
+"name": "Guide",
 "scripts": {
     (...)
     "predeploy": "npm run build",

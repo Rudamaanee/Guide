@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from '../../assets/images/svg/dnp.svg';
+import logo from '../../assets/images/frontix-H.png';
 
 const Header = () => {
  

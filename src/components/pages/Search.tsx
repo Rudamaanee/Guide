@@ -1,6 +1,5 @@
 import { Button, Row, Col, ButtonGroup, Form, InputGroup } from "react-bootstrap";
 import PageTitArea from "../layout/PageTitArea";
-import { BsSearch } from "react-icons/bs";
 
 const Search = () => {
   let  value='';
@@ -19,17 +18,17 @@ const Search = () => {
             <div className="card-body">
               <InputGroup className="search-box mb-2" size="sm">
                 <Form.Control type="text" placeholder=" sm 검색어를 입력해 주세요" defaultValue={value} />
-                <Button variant="primary" size="sm" className="center"><BsSearch /> </Button>
+                <Button variant="primary" size="sm" className="center"> </Button>
               </InputGroup>
 
               <InputGroup className="search-box mb-2">
                 <Form.Control type="text" placeholder="검색어를 입력해 주세요" defaultValue={value} />
-                <Button variant="primary" className="center"><BsSearch /> </Button>
+                <Button variant="primary" className="center"> </Button>
               </InputGroup>
 
               <InputGroup className="search-box mb-2" size="lg">
                 <Form.Control type="text" placeholder="lg 검색어를 입력해 주세요" defaultValue={value} />
-                <Button variant="primary" size="lg" className="center"><BsSearch /> </Button>
+                <Button variant="primary" size="lg" className="center"> </Button>
               </InputGroup>
             </div>
           </div>
@@ -152,7 +151,7 @@ const Search = () => {
                   <option>내용</option>
                 </Form.Select>
                 <Form.Control type="text" placeholder=" sm 검색어를 입력해 주세요" defaultValue={value} />
-                <Button variant="primary" size="sm" className="center"><BsSearch /> </Button>
+                <Button variant="primary" size="sm" className="center"> </Button>
               </InputGroup>
             </div>
           </div>
@@ -184,7 +183,7 @@ const Search = () => {
                   <Form.Control type="text" className="d-inline-block" name='start-month' size="sm" placeholder="" defaultValue={formattedDate} />
                   <span className='tilde'>~</span>
                   <Form.Control type="text" className="d-inline-block"  name='end-month' size="sm" placeholder="" defaultValue={formattedDate} />
-                  <Button variant="secondary btn-sm"><BsSearch /> </Button>
+                  <Button variant="secondary btn-sm"> </Button>
                 </InputGroup>
               </div>
               <div className="d-inline-block mx-2">
@@ -192,7 +191,7 @@ const Search = () => {
                   <Form.Control type="text" className="d-inline-block"  name='start-month' placeholder="" defaultValue={formattedDate} />
                   <span className='tilde'>~</span>
                   <Form.Control type="text" className="d-inline-block"  name='end-month' placeholder="" defaultValue={formattedDate} />
-                  <Button variant="secondary"><BsSearch /> </Button>
+                  <Button variant="secondary"> </Button>
                 </InputGroup>
               </div>
               <div></div>
@@ -207,7 +206,7 @@ const Search = () => {
                 <Form.Control type="text" name='start-month' size="sm" placeholder="" defaultValue={formattedDate} />
                 <span className='tilde'>~</span>
                 <Form.Control type="text" name='end-month' size="sm" placeholder="" defaultValue={formattedDate} />
-                <Button variant="secondary btn-sm"><BsSearch /> </Button>
+                <Button variant="secondary btn-sm"> </Button>
               </InputGroup>
               <div></div>    
               <InputGroup className="search-box duration-search date mt-2 w-auto">
@@ -221,7 +220,7 @@ const Search = () => {
                 <Form.Control type="text" name='start-month' placeholder="" defaultValue={formattedDate} />
                 <span className='tilde'>~</span>
                 <Form.Control type="text" name='end-month' placeholder="" defaultValue={formattedDate} />
-                <Button variant="secondary"><BsSearch /> </Button>
+                <Button variant="secondary"> </Button>
               </InputGroup>
             </div>
           </div>

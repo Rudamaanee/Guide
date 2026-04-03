@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { ChevronDown, Grid } from 'react-bootstrap-icons';
-import { BsBarChartFill, BsExclamationTriangleFill, BsFileEarmarkText, BsFillQuestionCircleFill, BsSearch, BsStackOverflow, BsTable, BsWrenchAdjustable } from "react-icons/bs";
-import { AiFillDashboard } from "react-icons/ai";
 
 const lnb = () => {
 
@@ -10,7 +8,7 @@ const lnb = () => {
       <div className="inner">
         <h2>PAGES</h2>
         <div className="depth1 active">
-          <Link to={"/"} className="nav-link"><i className="ico"><AiFillDashboard /></i> <code>Dashboards</code></Link>
+          <Link to={"/"} className="nav-link"><i className="ico"></i> <code>Dashboards</code></Link>
           <div className="depth2">
             <Link to={"/dashboard1"} className="nav-link"><code>Dashboard 1</code></Link>
             <Link to={"/dashboard2"} className="nav-link"><code>Dashboard 2</code></Link>
@@ -18,7 +16,7 @@ const lnb = () => {
         </div> {/* depth1 */}
 
         <div className="depth1 active">
-          <Link to={"/"} className="nav-link"><i className="ico"><BsExclamationTriangleFill /></i> <code>Errors</code></Link>
+          <Link to={"/"} className="nav-link"><i className="ico"></i> <code>Errors</code></Link>
           <div className="depth2">
             <Link to={"/error403"} className="nav-link"><code>403</code></Link>
             <Link to={"/error404"} className="nav-link"><code>404</code></Link>
@@ -27,21 +25,21 @@ const lnb = () => {
         </div> {/* depth1 */}
 
         <div className="depth1 active">
-          <Link to={"/helperclasses"} className="nav-link"><i className="ico"><BsFillQuestionCircleFill /></i> <code>Helper Classes</code></Link>
+          <Link to={"/helperclasses"} className="nav-link"><i className="ico"></i> <code>Helper Classes</code></Link>
         </div> {/* depth1 */}
 
         <h2>ELEMENTS</h2>
         <div className="depth1 active">
-          <Link to={"/formsTab"} className="nav-link active"><i className="ico"><BsFileEarmarkText /></i> <code>Forms</code></Link>
+          <Link to={"/formsTab"} className="nav-link active"><i className="ico"></i> <code>Forms</code></Link>
           <Link to={"/iconsAll"} className="nav-link"><i className="ico"><Grid /></i><code>Icons</code></Link>
-          <Link to={"/tables"} className="nav-link"><i className="ico"><BsTable /></i><code>Tables</code></Link>
-          <Link to={"/searches"} className="nav-link"><i className="ico"><BsSearch /></i><code>Searches</code></Link>
-          <Link to={"/charts"} className="nav-link"><i className="ico"><BsBarChartFill /></i> <code>Charts</code></Link>
+          <Link to={"/tables"} className="nav-link"><i className="ico"></i><code>Tables</code></Link>
+          <Link to={"/searches"} className="nav-link"><i className="ico"></i><code>Searches</code></Link>
+          <Link to={"/charts"} className="nav-link"><i className="ico"></i> <code>Charts</code></Link>
           <div className="depth2 active">
             <Link to={"/Chartjsv3"} className="nav-link"><code>Chartjs v3</code></Link>
             <Link to={"/Highcharts"} className="nav-link"><code>Highcharts</code></Link>
           </div>
-          <Link to={"/Accordion"} className="nav-link active"><i className="ico"><BsStackOverflow /></i> <code>Elements</code> <ChevronDown className="down"/></Link>
+          <Link to={"/Accordion"} className="nav-link active"><i className="ico"></i> <code>Elements</code> <ChevronDown className="down"/></Link>
           <div className="depth2 active">
             <Link to={"/Accordion"} className="nav-link"><code>Accordion</code></Link>
             <Link to={"/Alert"} className="nav-link"><code>Alerts</code></Link>
@@ -64,7 +62,7 @@ const lnb = () => {
             <Link to={"/Toasts"} className="nav-link"><code>Toast</code></Link>
           </div>
           <h2>Utilliies</h2>
-          <Link to={"/"} className="nav-link active"><i className="ico"><BsWrenchAdjustable /></i> <code>Utilliies</code> <ChevronDown className="down"/></Link>
+          <Link to={"/"} className="nav-link active"><i className="ico"></i> <code>Utilliies</code> <ChevronDown className="down"/></Link>
           <div className="depth2 active">
             <Link to={"/colors"} className="nav-link"><code>Colors</code></Link>
             <Link to={"/Grid"} className="nav-link"><code>Grid</code></Link>

@@ -31,12 +31,13 @@
       display: block;
       position: relative;
       line-height: $headerH;
-      padding-left: 90px;
+      padding-left: 120px;
       img {
+        $hSize: 30px;
         position: absolute;
         left: 0;
-        top: calc(50% - 12px);
-        height: 24px;
+        top: calc(50% - ($hSize/2));
+        height: $hSize;
       }
       span {
         display: inline-block;
