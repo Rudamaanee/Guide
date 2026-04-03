@@ -46,9 +46,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-==========================================================================
-
-# react 설치
+/* ==========================================================================
+# ✔ react 설치
+========================================================================== */
 
 준비 node.js 설치 npm 설치 확인 => 
 
